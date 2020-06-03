@@ -20,6 +20,30 @@
   display: flex;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color:darkolivegreen;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 /* Resume Page css */
 .resume-right-col {
   background: #27221F;

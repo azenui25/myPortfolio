@@ -21,16 +21,7 @@ class Resume extends Component {
 
             <h2 style={{paddingTop: '2em'}}>Nicholas Azenui Asanga</h2>
             <h4 style={{color: 'grey'}}>Geospatial Analyst/ Full Stack Web Developer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Analytical and detail-oriented professional with a recent Master’s degree in Geospatial Technologies and a Bachelor’s
-degree in Geography. Strong ability to capture, store, manipulate, analyze, manage, and present spatial and geographic
-data. Demonstrated skills in analysing information by using various criteria and integrating GIS with other technologies.
-Possess fundamental knowledge in the best technologies, including Esri products and QGIS. Well-versed in analyzing
-spatial data through mapping software and designing digital maps with geographic data and various other data sets.
-Experienced in designing, analyzing, developing, testing, and implementing web-based applications in alignment with
-client needs to improve user experience. Self-learner with excellent communication, multitasking, and decision-making
-skills; able to communicate effectively across multiple levels of the organisation. Proficient in English and French
-languages..</p>
+           
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p>Hammer str 278, <br/> Munster, Germany, <br/> 48153</p>
@@ -85,6 +76,48 @@ GIS data management and quality control."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
+
+              <Skills
+                      skill="Geospatial data science"
+                      progress={90}
+                      />
+              <Skills
+                      skill="Python"
+                      progress={70}
+                      />
+                      <Skills
+                      skill="R"
+                      progress={70}
+                      />
+                      <Skills
+                      skill="Google Earth"
+                      progress={100}
+                      />
+                      <Skills
+                      skill="QGIS"
+                      progress={100}
+                      />
+                      
+                      <Skills
+                      skill="ArcGIS Products"
+                      progress={95}
+                      />
+                      <Skills
+                      skill="ArcPy"
+                      progress={70}
+                      />
+                      <Skills
+                      skill="PostGIS"
+                      progress={70}
+                      />
+                      <Skills
+                      skill="Leaflet"
+                      progress={70}
+                      />
+                       <Skills
+                      skill="Microsoft Office Suit"
+                      progress={90}
+                      />
               <Skills
                 skill="javascript"
                 progress={100}
@@ -126,30 +159,7 @@ GIS data management and quality control."
                       progress={90}
                       />
                       
-                      <Skills
-                      skill="python"
-                      progress={70}
-                      />
-                      <Skills
-                      skill="ArcGIS Products"
-                      progress={95}
-                      />
-                      <Skills
-                      skill="ArcPy"
-                      progress={70}
-                      />
-                      <Skills
-                      skill="PostGIS"
-                      progress={70}
-                      />
-                      <Skills
-                      skill="Leaflet"
-                      progress={70}
-                      />
-                       <Skills
-                      skill="Microsoft Office Suit"
-                      progress={90}
-                      />
+                   
 
 
           </Cell>

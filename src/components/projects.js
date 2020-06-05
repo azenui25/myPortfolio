@@ -32,14 +32,13 @@ React, Redux, HTML CSS, Express and external API.
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://66.media.tumblr.com/7d6a5cb5d0d007a2851122695da318a8/tumblr_p5y78fhSlD1qz5u6yo1_400.gifv) center / cover'}} >Score Board</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              A simple react app the show the scores of people as they increase
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/azenui25/scoreboard-app-" rel="noopener noreferrer" target="_blank"> <Button  colored>GitHub</Button></a> 
+            <a href="https://nostalgic-bardeen-27d800.netlify.app/" rel="noopener noreferrer" target="_blank"> <Button  colored>App</Button></a> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />

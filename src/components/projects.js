@@ -47,14 +47,12 @@ React, Redux, HTML CSS, Express and external API.
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://futurium.de/uploads/images/_fullscreenMediaL/senseBox_Flyer_de_Aufbau.jpg) center / cover'}} >Open sense map</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Development, relocation, maintenance and adaptation of the openSenseMap infrastructure
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://opensensemap.org/" rel="noopener noreferrer" target="_blank"> <Button  colored>App</Button></a> 
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -99,6 +97,19 @@ availability in The Netherlands</CardTitle>
         </CardMenu>
       </Card>
       
+      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://1.bp.blogspot.com/-v7z5MG6Y1Ss/XRixI58XnxI/AAAAAAAACTw/dChYs2bzlGglYdVQfgq3vbbFB0HymPNQQCLcBGAs/s1600/leafglezgif-3-9d22587083e9.gif) center / cover'}} >  Welcome to Munster</CardTitle>
+        <CardText>
+         Guide for Incoming Phd students
+        </CardText>
+        <CardActions border>
+        <a href="https://ivv6.maps.arcgis.com/apps/MapSeries/index.html?appid=37a32a32d1724459be549ee931fbc697" rel="noopener noreferrer" target="_blank"> <Button  colored>Paper</Button></a> 
+          
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
       
       </div>
       )
